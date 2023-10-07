@@ -10,7 +10,7 @@ This repository contains a Telegram bot with an embedded RAT virus written in Py
 2. Create a virtual environment and activate it: ``python -m venv venv``
 3. Install the required dependencies: ``pip install -r requirements.txt``
 4. Create a bot at [@BotFather](https://t.me/botfather) and copy the bot token
-5. Replace ``TOKEN`` in the ``.env`` file with your bot token.
+5. Replace ``TOKEN`` in the ``.env.example`` file with your bot token and rename this file to ``.env``.
 6. Start the bot: ``python app.py``
 
 ### Build EXE file
